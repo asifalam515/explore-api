@@ -35,6 +35,7 @@ const displayCountryDetails=(country)=>{
     console.log(country)
    const countryDetail=document.getElementById('country-detail')
    countryDetail.innerHTML=`
+   <h2>Country Name: ${country.name}</h2>
   <img src="${country.flags.png}"> 
    `
 }
